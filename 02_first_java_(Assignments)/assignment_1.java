@@ -6,6 +6,7 @@ public static void main(String[] args) {
     int num;
     System.out.println("Enter a number to check it is even or odd ? : ");
     num = sc.nextInt();
+    sc.close();
     if(num % 2 == 0)
         System.out.println(num + " is even ");
     else System.out.println(num + " is odd ");
